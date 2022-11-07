@@ -5,10 +5,6 @@ buildscript {
         jcenter()
 
     }
-    plugins{
-        id 'com.android.application'
-        id 'com.google.gms.google-services'
-    }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.2.1'
 
@@ -16,6 +12,10 @@ buildscript {
         // in the individual module build.gradle files
         classpath 'com.google.gms:google-services:4.0.1'
     }
+}
+plugins{
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
 }
 
 allprojects {
