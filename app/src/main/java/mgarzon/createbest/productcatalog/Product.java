@@ -37,7 +37,8 @@ public class Product {
         _price = price;
     }
     public int getPrice() {
-        return Integer.parseInt(_price-180);
+        int prix = Integer.parseInt(_price-180);
+        return prix;
     }
 }
 
