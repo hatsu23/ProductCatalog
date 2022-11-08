@@ -7,7 +7,7 @@ package mgarzon.createbest.productcatalog;
 public class Product {
     private String _id;
     private String _productname;
-    private double _price;
+    private int _price;
 
     public Product() {
     }
@@ -36,7 +36,7 @@ public class Product {
     public void setPrice(double price) {
         _price = price;
     }
-    public double getPrice() {
+    public int getPrice() {
         return (_price-180);
     }
 }
