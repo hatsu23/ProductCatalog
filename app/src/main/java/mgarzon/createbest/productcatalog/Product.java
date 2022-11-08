@@ -37,9 +37,9 @@ public class Product {
         _price = price;
     }
     public double getPrice() {
-        Math.round(_price-180);
-        int prix = _price;
-        return prix;
+        long pris = Math.round(_price-180);
+        int prix = pris;
+        return pris;
     }
 }
 
