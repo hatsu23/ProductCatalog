@@ -37,7 +37,7 @@ public class Product {
         _price = price;
     }
     public double getPrice() {
-        return String.valueOf(_price-180);
+        return Math.round(_price-180);
     }
 }
 
