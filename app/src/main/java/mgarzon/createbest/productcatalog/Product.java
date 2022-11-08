@@ -36,8 +36,8 @@ public class Product {
     public void setPrice(double price) {
         _price = price;
     }
-    public double getPrice() {
-        return (_price-180);
+    public int getPrice() {
+        return Integer.parseInt(_price-180);
     }
 }
 
