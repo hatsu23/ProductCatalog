@@ -160,7 +160,7 @@ public class MainActivity extends AppCompatActivity {
     private void addProduct() {
         //getting the values to save
         String name = editTextName.getText().toString().trim();
-        int price = Integer.parseInt(String.valueOf(editTextPrice.getText().toString()));
+        String price = Integer.parseInt(String.valueOf(editTextPrice.getText().toString()));
 
         //checking if the value is provided
         if (!TextUtils.isEmpty(name)) {
